@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px) {
+    .hero {
+        background-image: url('/img/bg-image_mob.png');
+
+        &__title {
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+
+    .blog__title {
+        text-align: center;
+    }
+
+    .blog__card {
+        display: block;
+        text-align: center;
+    }
+
+    .blog__card-reverse {
+        margin-bottom: 50px;
+    }
+
+    .blog__img {
+        display: none;
+    }
+
+    .blog__img_mob {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blog__content {
+        order: 1;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .posts__header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .posts__card {
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .posts__card_img {
+        max-width: 100%;
+        max-height: 210px;
+    }
+
+    .popular__title {
+        text-align: center;
+    }
+
+    .popular__cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .popular__card {
+        max-width: 340px;
+        // display: block;
+        // margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .blog__content {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .posts__header {
+        align-items: flex-start;
+    }
+
+    .popular__title {
+        text-align: left;
+    }
+
+    .footer__title {
+        font-size: 32px;
+    }
+
+    .footer__phone,
+    .footer__email {
+        font-size: 18px;
+    }
+
+    .footer__copy {
+        max-width: 260px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .burger {
+        max-width: 74px;
+    }
+
+    .blog__content {
+        text-align: left;
+    }
+
+}

@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .nav {
+        margin-left: 15px;
+    }
+
+    .hero__container {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blog__img {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .nav {
+        display: none;
+
+        &__search {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .hero {
+        margin-bottom: 70px;
+
+        &__container {
+        padding-top: 30px;
+        }
+
+        &__title {
+        font-size: 36px;
+        line-height: 50px;
+        }
+    }
+
+    .blog {
+        margin-bottom: 70px;
+
+        &__img {
+            max-width: 340px;
+        }
+
+        &__card {
+            min-height: 280px;
+            overflow: hidden;
+            gap: 20px;
+        }
+
+        &__content_subtitle {
+            margin-bottom: 10px;
+        }
+
+        &__date {
+            margin-bottom: 40px;
+        }
+    }
+
+    .posts__main,
+    .popular,
+    .info {
+        margin-bottom: 70px;
+    }
+
+    .posts__main {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .posts__card {
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+
+        &_reverse {
+            flex-direction: row-reverse;
+        }
+
+        &_img {
+            max-width: 330px;
+            width: 100%;
+        }
+
+        &_content {
+            max-width: 330px;
+            width: 100%;
+        }
+    }
+
+    .info__container {
+        flex-direction: column;
+    }
+
+    .info__content_1 {
+        max-width: 600px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: auto;
+    }
+
+    .info__text {
+        text-align: right;
+    }
+
+    .footer {
+        padding: 50px 0;
+
+        &__container {
+            flex-direction: column;
+            gap: 35px;
+            margin-bottom: 40px;
+        }
+
+        &__contact {
+            text-align: center;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
