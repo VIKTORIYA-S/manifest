@@ -65,8 +65,6 @@
 
     .popular__card {
         max-width: 340px;
-        // display: block;
-        // margin: 0 auto;
     }
 }
 
@@ -104,10 +102,6 @@
 @media screen and (max-width: 320px) {
     .container {
         max-width: 300px;
-    }
-
-    .burger {
-        max-width: 74px;
     }
 
     .blog__content {
